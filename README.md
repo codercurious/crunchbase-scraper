@@ -4,7 +4,7 @@ Interested in using this scraper? Get it here: [Crunchbase Scraper](https://apif
 [Demo video](https://www.youtube.com/watch?v=WHMA9wB-lWY)
 
 
-Crunchbase is a platform where you can discover innovative companies, connect with the people behind them, and uncover new opportunities. It has become a prime source of business information for millions of users around the world.
+[Crunchbase](https://crunchbase.com) is a platform where you can discover innovative companies, connect with the people behind them, and uncover new opportunities. It has become a prime source of business information for millions of users around the world.
 
 ### **Importance of Crunchbase Data**
 
