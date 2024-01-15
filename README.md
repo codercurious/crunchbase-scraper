@@ -6,6 +6,86 @@ Interested in using this scraper? Get it here: [Crunchbase Scraper](https://apif
 
 [Crunchbase](https://crunchbase.com) is a platform where you can discover innovative companies, connect with the people behind them, and uncover new opportunities. It has become a prime source of business information for millions of users around the world.
 
+
+## Features
+- Scrape crunchbase company pages
+- Scrape crunchbase profile URLs
+- Find organizations by website in bulk
+- Scrape crunchbase company search results
+- Scrape crunchbase funding search results
+- Scrape crunchbase contacts search results
+- Scrape crunchbase investors search results
+- Scrape crunchbase aquisitions search results
+- Scrape crunchbase events search results
+- Scrape crunchbase schools search results
+- Scrape crunchbase hubs search results
+- Scrape crunchbase people search results
+
+You can extract following data from crunchbase using this scraper:
+
+## Company data fields
+
+| 🔍 Identifier              | 👥 Num Employees Enum   | 📦 Categories        |
+| -------------------------- | ------------------------ | ------------------ |
+| 🌍 Location Identifiers    | 📄 Short Description    | 📈 Rank Org Company  |
+| 🌐 Website                 | 🐦 Twitter              | 📘 Facebook          |
+| 🔗 LinkedIn                | 📧 Contact Email        | ☎️ Phone Number      |
+| 💰 Stock Symbol           | 📰 Num Articles         | 🏷️ Hub Tags          |
+| 📝 Description             | 📜 Job Posting Link Source | 🌆 Location Group Identifiers |
+| 🌈 Diversity Spotlights   | 💵 Revenue Range        | 🏭 Operating Status   |
+| 📅 Exited On               | 📅 Founded On           | 📅 Closed On          |
+| 🏢 Company Type           | 💼 Investor Type        | 🚀 Investor Stage    |
+| 📊 Num Portfolio Organizations | 💳 Num Investments/Funding Rounds | 💼 Num Lead Investments |
+| 🚪 Num Diversity Spotlight Investments | 🚪 Num Exits     | 🚪 Num Exits IPO    |
+| 🎓 Program Type           | 📅 Program Application Deadline | ⏳ Program Duration |
+| 🏫 School Type            | 📚 School Program        | 👩‍🎓 Num Enrollments |
+| 👩‍🎓 Num Founder Alumni  | 📚 School Method         | 🎓 Num Alumni       |
+| 🗂 Category Groups        | 👥 Num Founders         | 👥 Founder Identifiers |
+| 📈 Num Funding Rounds     | 💼 Funding Stage        | 📅 Last Funding At  |
+| 💰 Last Funding Total     | 💼 Last Funding Type    | 💰 Last Equity Funding Total |
+| 💼 Last Equity Funding Type | 💰 Equity Funding Total | 💰 Funding Total    |
+| 👥 Num Lead Investors     | 👥 Num Investors        | 👥 Investor Identifiers |
+| 💼 Num Acquisitions       | 🏁 Acquisition Status   | 🔍 Acquisition Identifier |
+| 💰 Acquisition Price     | 📅 Acquisition Announced On | 🔍 Acquirer Identifier |
+| 🏁 Acquisition Type       | 📜 Acquisition Terms    | 💼 IPO Status       |
+| 📅 Went Public On         | 📅 Delisted On           | 💰 IPO Valuation    |
+| 💰 IPO Amount Raised     | 📈 Stock Exchange Symbol | 📅 Last Layoff Date |
+| 📅 Last Key Employee Change Date | 📅 Num Event Appearances | 📈 Rank Org |
+| 📈 Rank Org School        | 📉 Rank Delta D7         | 📉 Rank Delta D30   | 📉 Rank Delta D90   |
+| 🏢 Num Org Similarities   | 👔 Contact Job Departments | 👥 Num Contacts    |
+| 👥 Num Private Contacts   | 📈 SEMrush Visits Latest Month | ⏳ SEMrush Visits MoM % |
+| ⏳ SEMrush Visits Latest 6 Months Avg | ⏳ SEMrush Visit Duration | ⏳ SEMrush Visit Pageviews |
+| ⏳ SEMrush Visit Duration MoM % | ⏳ SEMrush Visit Pageview MoM % | ⏳ SEMrush Bounce Rate |
+| ⏳ SEMrush Bounce Rate MoM % | ⏆ SEMrush Global Rank  | ⏆ SEMrush Global Rank MoM |
+| ⏳ SEMrush Global Rank MoM % | 💻 Builtwith Num Technologies Used | 📱 Apptopia Total Apps |
+| 📱 Apptopia Total Downloads | 🏢 Siftery Num Products | ⚙️ IPqwery Num Patent Granted |
+| ⚙️ IPqwery Num Trademark Registered | 📊 IPqwery Popular Patent Category | 📊 IPqwery Popular Trademark Class |
+| 💰 Aberdeen Site IT Spend | 💰 PrivCo Valuation Range | 📅 PrivCo Valuation Timestamp |
+| 📝 Num Private Notes       | 🏷️ Private Tags          |
+
+## Person data fields
+
+| 🔍 Identifier                  | 👔 Primary Job Title         | 👥 Primary Organization        |
+| ------------------------------ | ---------------------------- | ------------------------------ |
+| 🌍 Location Identifiers        | 📈 Rank Person               | 📘 Facebook                    |
+| 🔗 LinkedIn                    | 🐦 Twitter                  | ⚧ Gender                      |
+| 👨‍🦱 First Name              | 👨‍🦳 Last Name             | 📝 Description                 |
+| 🌆 Location Group Identifiers  | 📰 Num Articles              | 👩‍🏫 Attended Schools          |
+| 🏢 Num Founded Organizations  | 🏢 Current Organizations     | 🏭 Num Portfolio Organizations |
+| 🏭 Num Investments/Funding Rounds | 🏆 Num Partner Investments | 🥇 Num Lead Investments       |
+| 🚪 Num Exits                   | 🚪 Num Diversity Spotlight Investments | 🚪 Num Exits IPO   |
+| 📅 Num Event Appearances       | 📉 Rank Delta D7            | 📉 Rank Delta D30              |
+| 📉 Rank Delta D90              |
+
+
+
+## Crunchbase data API
+
+The actor stores results in a dataset. You can export data in various formats such as CSV, JSON, XLS, etc. 
+You can scrape and access data on demand using API. For more information, Go to [Crunchbase scraper API integration](https://apify.com/curious_coder/crunchbase-scraper/api/endpoints?fpr=ve081) page
+
+
+
 ### **Importance of Crunchbase Data**
 
 Data from Crunchbase is highly sought after. It can provide invaluable insights about startups, their funding rounds, key individuals involved, and much more. Therefore, scraping this data can equip businesses with information necessary for decision-making and strategy development.
